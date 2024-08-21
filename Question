@@ -1,17 +1,37 @@
-Intro:-
-Hello, I'm Yesh Singh from Ballia, Uttar Pradesh. I'm currently pursuing a Bachelor of Technology in Computer Science at VIT Bhopal University, where I maintain a CGPA of 8.67. 
-I began my academic journey at Holy Cross School in Ballia, completing my secondary and higher secondary education with percentages of 89.6 and 84.5, respectively.
-My passion for competitive programming is a significant part of my profile. I've represented my college twice in the prestigious ACM ICPC, achieving All India Ranks of 115 in the Mathura region and 113 in the Amritapuri region.
-Additionally, I placed 308th out of over 1,30,000 participants in TCS Codevita 2023. 
-I also participated in Google Kickstart and CodeJam early in my college journey, which further honed my skills. 
-On LeetCode, I hold the title of Knight with a peak rating of 1853, and I'm recognized as a Pupil on Codeforces.
-In addition to my competitive programming accomplishments, I have worked on projects like Medisync, a healthcare management system, and Algovisualizer, a web application for visualizing pathfinding algorithms. 
-While my primary strength lies in competitive coding, where I have solved over 1,100 problems across various platforms and my projects showcase my ability to apply my problem-solving skills to real-world challenges.
-Outside of programming, I enjoy playing football and chess, which helps me stay balanced and brings a different perspective to my problem-solving approach.
-
 1. Can you tell me about yourself?
-2. What motivated you to pursue a Bachelor of Technology in Computer Science?
+
+Good morning My name is Yesh Singh, and I am currently pursuing a Bachelor of Technology in Computer Science Engineering from VIT Bhopal University, with a CGPA of 8.67. 
+My primary domain is web development, with MERN as my tech stack. I have worked on projects like MEDICARE, a healthcare management system, and Algovisualizer, 
+a web application for visualizing pathfinding algorithms.
+I am deeply passionate about competitive programming and have solved over 1200 problems across various platforms. 
+I hold the title of Knight on LeetCode, with a peak rating of 1853, and Pupil on Codeforces. 
+I have also represented my college in the ACM ICPC Amritapuri and Mathura Regionals for two consecutive years. 
+Additionally, I achieved a rank of 308 in Round 2 of TCS Codevita 2023.
+
+2. Can you tell in brief about your projects:-
+MEDISYNC:-
+Medisync is a healthcare management system specifically designed for VIT Bhopal University and its surrounding doctors. 
+It connects students with local healthcare providers quickly and efficiently. 
+Key features include a map for locating healthcare providers and a chatbot for quick first aid advice. 
+The tech stack used includes MERN (React for the frontend, Node.js for the backend, and MongoDB for the database), with Botpress for the chatbot and Google Maps API for location services
+
+Algovisualizer:- 
+Algovisualizer is a web application for visualizing algorithms which is helpful in path finding these algorithms include dfs, bfs, dijkstra and A*. 
+Through algovisualizer we can also visulaize complex maze problems like rat in a maze. 
+It helps the user visualize how complex algorithms works in real time making it easier for them to understand.
+
 3. Can you elaborate on your role and responsibilities in the Medisync project?
+My role in Medisync:-
+My role involved managing user login and authentication processes. 
+I was responsible for verifying the credentials of new doctors registering on the platform to ensure their authenticity. 
+Additionally, I implemented the chatbot functionality to assist users with first aid advice and other queries.
+
+My role in ALgovisualizer:-
+Algovisualizer was my solo project so i build everything in it. 
+
+
+
+2. What motivated you to pursue a Bachelor of Technology in Computer Science?
 4. What were the key challenges you faced during the development of Medisync, and how did you address them?
 5. How did you approach the integration of Google Maps API in Medisync?
 6. Can you describe the technology stack used in Medisync and why you chose those technologies?
