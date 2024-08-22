@@ -12,7 +12,7 @@ Additionally, I achieved a rank of 308 in Round 2 of TCS Codevita 2023.
 MEDISYNC:-
 Medisync is a healthcare management system specifically designed for VIT Bhopal University and its surrounding doctors. 
 It connects students with local healthcare providers quickly and efficiently. 
-Key features include a map for locating healthcare providers and a chatbot for quick first aid advice. 
+Key features include a map for locating healthcare providers and a chatbot for quick first aid advice. //booking appointment
 The tech stack used includes MERN (React for the frontend, Node.js for the backend, and MongoDB for the database), with Botpress for the chatbot and Google Maps API for location services
 
 Algovisualizer:- 
@@ -34,7 +34,7 @@ Algovisualizer was my solo project so i build everything in it.
 2. What motivated you to pursue a Bachelor of Technology in Computer Science?
 4. What were the key challenges you faced during the development of Medisync, and how did you address them?
 5. How did you approach the integration of Google Maps API in Medisync?
-6. Can you describe the technology stack used in Medisync and why you chose those technologies?
+6. Can you describe the technology stack used in Medisync and why you chose those technologies?// react vs angular   node vs other backends9rust,go    no sql vs sql 
 7. What performance optimizations did you implement in Medisync, and how did they impact the application?
 8. How did you ensure data security and user privacy in Medisync?
 9. Can you explain the architecture of the Medisync application?
