@@ -12,7 +12,7 @@ Additionally, I achieved a rank of 308 in Round 2 of TCS Codevita 2023.
 MEDISYNC:-
 Medisync is a healthcare management system specifically designed for VIT Bhopal University and its surrounding doctors. 
 It connects students with local healthcare providers quickly and efficiently. 
-Key features include a map for locating healthcare providers and a chatbot for quick first aid advice. //booking appointment
+Key features include a map for locating healthcare providers, appointment booking of doctors and a chatbot for quick first aid advice. //booking appointment
 The tech stack used includes MERN (React for the frontend, Node.js for the backend, and MongoDB for the database), with Botpress for the chatbot and Google Maps API for location services
 
 Algovisualizer:- 
@@ -20,25 +20,56 @@ Algovisualizer is a web application for visualizing algorithms which is helpful 
 Through algovisualizer we can also visulaize complex maze problems like rat in a maze. 
 It helps the user visualize how complex algorithms works in real time making it easier for them to understand.
 
+Both projects were my solo projects
+
 3. Can you elaborate on your role and responsibilities in the Medisync project?
-My role in Medisync:-
-My role involved managing user login and authentication processes. 
-I was responsible for verifying the credentials of new doctors registering on the platform to ensure their authenticity. 
-Additionally, I implemented the chatbot functionality to assist users with first aid advice and other queries.
+I build everything in MEDISYNC.
 
 My role in ALgovisualizer:-
-Algovisualizer was my solo project so i build everything in it. 
+Algovisualizer was also my solo project so i build everything in that too. 
 
 
-
-2. What motivated you to pursue a Bachelor of Technology in Computer Science?
 4. What were the key challenges you faced during the development of Medisync, and how did you address them?
+One of the major challenges I faced while building Medisync was verifying whether the doctors registering on the platform were genuine. 
+To address this, I collected essential information from the doctors, such as their name, age, and license ID. 
+I then cross-checked this data with the India Medical Registry, where all the necessary details about registered doctors are available. 
+This process helped me ensure that only legitimate doctors could access and use the platform. 
+
+
 5. How did you approach the integration of Google Maps API in Medisync?
-6. Can you describe the technology stack used in Medisync and why you chose those technologies?// react vs angular   node vs other backends9rust,go    no sql vs sql 
+I used the @react-google-maps/api package to add Google Maps to Medisync. 
+After getting a key to access Google Maps, I used the user's current location (latitude and longitude) to find nearby hospitals.
+Using this data, I queried the API to find nearby hospitals. 
+This is how I added the map feature.
+
+
+6. Can you describe the technology stack used in Medisync and why you chose those technologies?// react vs angular   node vs other backends9rust,go    no sql vs sql
+
+
 7. What performance optimizations did you implement in Medisync, and how did they impact the application?
+Scalable:-Right now, Medisync is for VIT Bhopal University students, but I plan to expand it in the future. 
+The goal is to make it available in rural areas where hospitals are far away, but local doctors are nearby so using my website, 
+people can contact the local doctors listed on Medisync in case of emergencies.
+
+Technical Scalability:- The technical scalabilty included caching to speed up data retrieval, load balancing to distribute traffic evenly across servers, 
+auto-scaling to handle varying loads automatically, and queues to manage tasks efficiently. 
+
+Automate:- Right now, the admin manually checks if doctors are legitimate by verifying their name, age, and license ID. 
+However, I'm planning to automate this process by using an API key to automatically verify whether the doctor is legit or not, making the process more efficient.
+
+
 8. How did you ensure data security and user privacy in Medisync?
+To ensure data security and user privacy in Medisync, 
+I used JWT (JSON Web Tokens) for secure authentication and encryption methods like bcrypt and SHA-256 to protect sensitive data.
+
+
 9. Can you explain the architecture of the Medisync application?
+The high-level design of my project is straightforward. It includes separate pages for doctors and users. 
+The information for both doctors and users is stored in a database.
+
 10. How did you approach the development of the Algovisualizer project?
+
+
 11. What were the main features of Algovisualizer, and how did you implement them?
 12. How did you handle real-time updates and visualization in the Algovisualizer project?
 13. Can you discuss the state management strategy you used in Algovisualizer?
